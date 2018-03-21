@@ -1,0 +1,113 @@
+#main-div {
+    padding: 100px 150px;
+}
+#main-div .row {
+    margin: 0;
+}
+#main-div .row div {
+    padding: 0;
+}
+#main-div .row .row-text {
+    text-align: right;
+}
+#main-div .row .row-text img {
+    width: 30%;
+    margin-top: 80px;
+}
+#main-div .row-text p {
+    font-size: 40px;
+    color: #E04439;
+}
+#main-div .row-text .row-text-header {
+    font-size: 45px;
+    color: #E04439;
+    font-weight: bold;
+}
+#main-div .row-text .row-text-th {
+    float: right;
+    width: 120px;
+    border: 1px solid #E04439;
+    height: 8px;
+    background-color: #E04439;
+}
+#main-div .row-text span {
+    color: #E04439;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.row-img img {
+    width: 100%;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 2px #ccc;
+}
+.row-QR img {
+    width: 50%;
+}
+@media screen and (max-width:1520px) {
+    #main-div {
+        padding: 100px 50px;
+    }
+    #main-div .row .row-text img {
+        width: 30%;
+        margin-top: 50px;
+    }
+    #main-div .row-text p {
+        font-size: 35px;
+        color: #E04439;
+    }
+    #main-div .row-text .row-text-header {
+        font-size: 40px;
+        color: #E04439;
+        font-weight: bold;
+    }
+    #main-div .row-text .row-text-th {
+        float: right;
+        width: 120px;
+        border: 1px solid #E04439;
+        height: 8px;
+        background-color: #E04439;
+    }
+}
+@media screen and (max-width:1025px){
+    #main-div .row .row-text img {
+        width: 30%;
+        margin-top: 0;
+    }
+    #main-div .row-text p {
+        font-size: 30px;
+        color: #E04439;
+    }
+    #main-div .row-text .row-text-header {
+        font-size: 35px;
+        color: #E04439;
+        font-weight: bold;
+    }
+    #main-div .row-text .row-text-th {
+        padding: 0;
+        width: 100px;
+        border: 1px solid #E04439;
+        height: 4px;
+        background-color: #E04439;
+    }
+    #main-div .row .row-QR {
+        padding-top: 40px;
+    }
+    .row-QR img {
+        width: 70%;
+    }
+    #main-div .row div {
+        padding: 20px 0;
+    }
+}
+@media screen and (max-width:770px) {
+    #main-div {
+        padding: 40px;
+    }
+    #main-div .row .row-text img {
+        width: 50%;
+    }
+    #main-div .row-text span {
+        margin-right: 10px;
+    }
+}

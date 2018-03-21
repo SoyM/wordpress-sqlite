@@ -1,0 +1,71 @@
+.topbar {
+    width: 100%;
+    height: 30px;
+    background-color: #E04439;
+}
+
+.login-title {
+    position: relative;
+    text-align: center;
+}
+
+.login-title::before, .login-title::after {
+    content: '';
+    width: 40%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    background-color: #b2b2b2;
+}
+
+.login-title::before {
+    left: 0;
+}
+
+.login-title::after {
+    right: 0;
+}
+
+.login-contain {
+    padding-bottom: 120px;
+    border-bottom: 1px solid #666;
+}
+
+.login-form {
+    width: 50%;
+    margin: 50px auto 0 auto;
+}
+
+.login-choose-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-choose-btn .login-btn, .login-choose-btn .register-href {
+    width: 40%;
+    border: 1px solid #E04439;
+    color: #E04439;
+}
+
+.login-choose-btn .login-btn {
+    background-color: #E04439;
+    border: 1px solid #E04439;
+    color: #ffffff;
+}
+
+.login-choose-btn .login-btn:hover {
+    border: 1px solid #E04439;
+    color: #ffffff;
+}
+
+.login-choose-btn .register-href:hover {
+    color: #E04439;
+}
+
+@media screen and (max-width:750px) {
+    .login-form {
+        width: 100%;
+        margin: 50px auto 0 auto;
+    }
+}
+

@@ -1,0 +1,23 @@
+#Navigation-container {
+    min-height: 600px;
+    padding: 200px 0;
+    background-color: #f4f4f4;
+}
+#Navigation-container a {
+    border-radius: 10px;
+}
+#Navigation-container a img {
+    width: 100%;
+}
+@media screen and (max-width:1025px){
+    #Navigation-container {
+        min-height: 1000px;
+        padding: 100px 0;
+    }
+}
+@media screen and (max-width:770px) {
+    #Navigation-container {
+        min-height: 200px;
+        padding: 20px 40px;
+    }
+}
