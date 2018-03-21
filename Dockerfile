@@ -1,4 +1,4 @@
-FROM webdevops/php-apache:7.0
+FROM webdevops/php-apache:alpine
 
 WORKDIR /app
 ADD ./web /app
