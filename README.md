@@ -7,8 +7,11 @@
 在linux系统下运行下面两条命令
 
 ``` 
-https://raw.githubusercontent.com/SoyM/wordpress-sqlite/master/install_docker.sh
-https://raw.githubusercontent.com/SoyM/wordpress-sqlite/master/deploy.sh
+
+curl -sSL https://raw.githubusercontent.com/SoyM/wordpress-sqlite/master/install_docker.sh | sh
+
+curl -sSL https://raw.githubusercontent.com/SoyM/wordpress-sqlite/master/deploy.sh | sh
+
 ``` 
 
 ## From
