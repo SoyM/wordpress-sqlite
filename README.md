@@ -7,8 +7,8 @@
 在linux系统下运行下面两条命令
 
 ``` 
-curl -sSL https://git.panxingzhe.com/xinjiang/wordpress-sqlite/raw/master/install_docker.sh | sh
-curl -sSL https://git.panxingzhe.com/xinjiang/wordpress-sqlite/raw/master/deploy.sh | sh
+https://raw.githubusercontent.com/SoyM/wordpress-sqlite/master/install_docker.sh
+https://raw.githubusercontent.com/SoyM/wordpress-sqlite/master/deploy.sh
 ``` 
 
 ## From
