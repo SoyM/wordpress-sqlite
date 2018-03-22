@@ -21,8 +21,12 @@
 // use sqlite
 define('USE_MYSQL', false);
 define('DB_FILE', '.ht.sqlite');
-define('DB_DIR', '/app/eton/wp-content/database/');
- 
+define('DB_DIR', dirname(__FILE__).'/wp-content/database/');
+define("FS_METHOD","direct");
+define("FS_CHMOD_DIR", 0777);
+define("FS_CHMOD_FILE", 0777);
+
+
 // ** MySQL 设置 - 具体信息来自您正在使用的主机 ** //
 /** WordPress数据库的名称 */
 define('DB_NAME', 'database_name_here');
