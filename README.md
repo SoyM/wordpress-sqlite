@@ -1,19 +1,19 @@
-# Wordpress-sqlite
+# What is WordPress-sqlite
+WordPress.Use Sqlite ~~mysql~~, Docker. 
 
-使用docker,一键部署wordpress，使用sqlite，无需mysql
-
-## 部署
-
-在linux系统下运行下面两条命令
-
+## Installation
 ``` 
-
 curl -sSL https://raw.githubusercontent.com/SoyM/wordpress-sqlite/master/install_docker.sh | sh
-
 curl -sSL https://raw.githubusercontent.com/SoyM/wordpress-sqlite/master/deploy.sh | sh
-
 ``` 
 
-## From
+If you had already installed docker
+``` 
+docker pull soym/wordpress-sqlite
+docker run -p 80:80 soym/wordpress-sqlite
+``` 
 
-* docker image https://hub.docker.com/r/soym/wordpress-sqlite/
+## docker image
+https://hub.docker.com/r/soym/wordpress-sqlite/
+
+## License
